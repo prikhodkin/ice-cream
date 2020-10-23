@@ -4,21 +4,106 @@
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
   </head>
-  <body>
+  <style>
+    body {
+     background: url(img/background.png); 
+    }
+   </style>
     <haeder>
-      Шапка
+      <nav>
+        <img src="img/logo.png" width="154px" height="64px" />
+      <ul>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Доставнка и оплата</a></li>
+        <li><a href="#">О компании</a></li>
+      </ul>
+      <a href="search.html"><img src="img/iconsearch.png" /></a>
+      <a href="login.html"><img src="img/iconinput.png">Вход</a>
+      <a href="#"><img src="img/iconbasket.png">Корзина</a>
+      <p>с 10 до 20, ежедневно</p>
+      <p>8 912 450-25-25</p>
+      </nav>
     </haeder>  
     <main>
-      <nav>
-        <section>Каталог</section>
-        <section>Доставка и оплата</section>
-        <section>О компании</section>
-      </nav>
+      <img src="img/icecream1.png" >
+      <img src="img/icecream2.png" >
+      <h1>Крем-брюле и пломбир с малиновым джемом</h1>
+      <button><img src="img/buttongiveboth.png"></button>
+      <section>Скидки</section>
+      <ul>
+        <li>
+          <h2>Малинка даром!</h2>
+          <p>При покупке 2 кг любого  фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+          <button>Хочу варенье!</button>
+          <h2>Шоколад даром!</h2>
+          <p>При покупке 2 кг любого пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно</p>
+          <button>Хочу шоколадки!</button>
+          <img src="img/crimsonbackground.png" >
+          <img src="img/chocolatebackground.png" >
+        </li>
+      </ul>
+      <section>ХИТЫ</section>
+      <ul>
+        <li>
+          <h3>310 ₽/кг</h3>
+          <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+          <h3>380 ₽/кг</h3>
+          <p>Сливочно-кофейное с кусочками шоколада</p>
+          <h3>355 ₽/кг</h3>
+          <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
+          <h3>415 ₽/кг</h3>
+          <p>Сливочное крем-брюле с карамельной подливкой</p>
+          <img src="img/hit1.png" >
+          <img src="img/hit2.png" >
+          <img src="img/hit3.png" >
+          <img src="img/hit4.png" >
+        </li>
+      </ul>
+      <section>О мороженом</section>
+      <ul>
+        <li>
+          <h2>Магазин Глэйси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
+          <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+          <p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
+          <p>Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+          <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
+        </li>
+      </ul>
+      <section>Новости</section>
+      <p>Новое в нашем блоге<br>
+        <u>10 способов сервировки фруктовых щербетов к столу</u>
+      </p>
+      <p>Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+      <input type="text" name="email" placeholder="email@example.com">
+      <input type="submit" value="Отправить">
+      <p>Адрес главного офиса и офлайн-магазина:</p>
+      <p><strong>ул. Большая Конюшенная, 19/8, Санкт-Петербург</strong></p>
+      <p>Для заказов по телефону:</p>
+      <p><strong>8 812 450-25-25</strong></p>
+      <p>(с 10 до 20 ежедневно)</p>
+      <button type="button">Форма обратной связи</button>
     </main>
-    <h1>Крем-брюле и пломбир с малиновым джемом</h1>
+    <br>
     <footer>
-      Подвал
+      <a href="#"><img src="img/facebook.png"></a>
+      <a href="#"><img src="img/vkontakte.png"></a>
+      <a href="#"><img src="img/instagram.png"></a>
+      <a href="#"><img src="img/twitter.png"></a>
+      <ul>
+        <li>
+          <p><strong>Для поставщиков</strong></p>
+          <p>О производстве</p>
+          <p>Наши документы</p>
+          <p>Экологические стандарты</p>
+        </li>
+        <img src="img/logoacademy.png" width="108px" height="39px">
+        <p>Сделано в HTML Academy © 2019</p>
+      </ul>
     </footer>
+    <section>Личный кабинет</section>
+    <input type="text" name="login" placeholder="email@example.com">
+    <input type="password" name="password">
+    <input type="submit" value="Войти" >
     <h1></h1>
   </body>
 </html>
